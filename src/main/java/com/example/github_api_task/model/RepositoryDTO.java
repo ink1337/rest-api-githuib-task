@@ -5,7 +5,10 @@ import lombok.Data;
 import java.time.OffsetDateTime;
 
 @Data
-public class GithubResponseDTO {
+public class RepositoryDTO {
+
+    private Long id;
+
     private String description;
 
     private String fullName;
